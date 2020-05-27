@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/d882e6387b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link jQuery, ajax & bootstrap4 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <title>Paris | 19 eme arrondissement</title>
+
+    <!-- link style -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ========== NAVIGATION === -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="./img/parisLogo.jpg" class="logo-paris" />
+        </a>
+
+        <!-- Hamburger-menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- List-menu -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">The city</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Discover</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Recommendation</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--- ========== IMAGE SLIDER === -->
+
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <!-- Slider nav -->
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+
+      <!-- Images -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/jaures.jpg" />
+
+          <!-- Image caption -->
+          <div class="carousel-caption">
+            <h1 class="display-2">PARIS</h1>
+            <h3>19eme Arrondissement</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              RESERVATION
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">
+              About the city
+            </button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/belleville.jpg" />
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/stMartin.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!--- ========== JUMBOTRON === -->
+
+    <div class="container-fluid">
+      <div class="row jumbotron">
+        <!-- Text -->
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            voluptatum asperiores delectus unde. Atque omnis ex esse voluptate
+            amet aperiam nisi nihil in incidunt deserunt.
+          </p>
+        </div>
+
+        <!-- Button -->
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="#">
+            <button type="button" class="btn btn-outline-secondary btn-lg">
+              Book Now!
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--- ========== CITY SESSION === -->
+
+    <!-- Header -->
+    <div class="container fluid padding">
+      <div class="row city text-center">
+        <div class="col-12">
+          <h1 class="display-4">What the city offers</h1>
+        </div>
+        <hr />
+
+        <!-- Text -->
+        <div class="col-12">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            quod, quae deleniti optio non quis numquam, facilis blanditiis
+            aliquam sunt dicta molestias, delectus sed doloribus?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Icons -->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-hotel"></i>
+          <h3>Hotels</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+            praesentium reiciendis dolores impedit, tempora voluptatem..
+          </p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-utensils"></i>
+          <h3>Restaurants</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+            vel adipisci ducimus consectetur alias eum perspiciatis quam, neque
+            veritatis repellendus obcaecati suscipit!
+          </p>
+        </div>
+
+        <div class="col-sm-12 col-md-4">
+          <i class="fas fa-archway"></i>
+          <h3>Architecture</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed
+            consectetur at dolorum doloremque impedit totam porro aperiam?.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!--- ========== ABOUT SECTION === -->
+
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <!-- Text -->
+        <div class="col-md-12 col-lg-6">
+          <h2>About 19eme Arrondissement</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+            necessitatibus quasi at nesciunt. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Voluptate dignissimos, velit, quidem
+            pariatur voluptas quia perferendis assumenda labore eveniet, modi
+            reprehenderit deserunt qui voluptatum veritatis laboriosam vero
+            incidunt illum. Quas id quos qui excepturi est. Cumque non optio eum
+            reprehenderit!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            suscipit iste voluptatum enim quae dolores unde sint fugiat. Totam
+            impedit doloremque provident consequuntur expedita neque!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            suscipit iste voluptatum enim quae dolores unde sint fugiat. Totam
+            impedit doloremque provident consequuntur expedita neque! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Quisquam non eos
+            natus? Architecto sapiente nemo similique dignissimos repellat
+            impedit, necessitatibus dolor aut laboriosam, error debitis. Nulla
+            quia repellendus quas dolore, minus quo molestiae beatae odit
+            laudantium minima voluptate. Possimus repudiandae quasi ratione
+            veniam minima facere eaque nulla quaerat a optio totam, ipsum quos
+            ipsa mollitia minus cumque rem hic? Impedit aut, velit repellat
+            iusto ad consectetur? Distinctio facere culpa sit fugiat consectetur
+            reiciendis nihil. Voluptates, culpa sequi dolorem a iure aliquam
+            neque amet autem ex.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis optio
+            quibusdam libero numquam. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Consequatur, unde, fugiat eum magni quaerat
+            recusandae sit laborum iure accusamus id repudiandae tempora fugit
+            ipsam, dolorem esse? Consectetur asperiores numquam temporibus unde
+            neque suscipit provident assumenda.
+          </p>
+          <br />
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+        <!-- Image -->
+        <div class="col-lg-6">
+          <img src="./img/escalier.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <!--- ========== FIXED BACKGROUND === -->
+
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed"></div>
+      </div>
+    </figure>
+
+    <!--- ========== GALLERY SECTION === -->
+
+    <!-- Button -->
+    <button class="gallery" data-toggle="collapse" data-target="#gallery">
+      See Gallery
+    </button>
+
+    <!-- Images-->
+    <div id="gallery" class="collapse">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-3">
+            <img src="./img/arbre.jpg" class="gallery-img" />
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <img src="./img/rue.jpg" class="gallery-img" />
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <img src="./img/pont.jpg" class="gallery-img" />
+          </div>
+
+          <div class="col-sm-6 col-md-3">
+            <img src="./img/chaumont.jpg" class="gallery-img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- ========== DISCOVER SECTION === -->
+
+    <!-- Header -->
+    <div class="container-fluid padding">
+      <div class="row city text-center">
+        <div class="col-12">
+          <h1 class="display-4">Place to discover</h1>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <!--- Cards -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/canal.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Le Canal St. Martin</h4>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis modi minima dicta ipsam amet magnam!
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/buttesChaumont.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Les Buttes Chaumont</h4>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis modi minima dicta ipsam amet magnam!
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./img/petitCeinture.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">La Petite Ceinture</h4>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis modi minima dicta ipsam amet magnam!
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- ========== RECOMMENDATIONS SECTION === -->
+
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <!-- Text -->
+        <div class="col-md-12 col-lg-6">
+          <h2>Our Recommendations</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+            necessitatibus quasi at nesciunt.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            repudiandae atque ad sint! Aspernatur molestiae quam eum sapiente
+            facilis illum minima tempora.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed cumque
+            perspiciatis accusamus voluptatum omnis, laboriosam dolor?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            suscipit iste voluptatum enim quae dolores unde sint fugiat. Totam
+            impedit doloremque provident consequuntur expedita neque! Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit
+            dolor magni at, vero sapiente dolore laboriosam delectus similique.
+            Laudantium mollitia iure quae corporis consequuntur, aut quam rem
+            ab, hic molestiae inventore, debitis praesentium fugit officiis!
+            Temporibus eveniet unde maiores veniam numquam quasi beatae ducimus,
+            ea reprehenderit corrupti, illum adipisci? Pariatur, vitae.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            suscipit iste voluptatum enim quae dolores unde sint fugiat. Totam
+            impedit doloremque provident consequuntur expedita neque!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+            quod expedita a deleniti molestias in natus dolores quaerat
+            architecto? Minima ipsam unde labore porro sit tempore officiis, in
+            esse. Ipsum, sit nihil.
+          </p>
+          <br />
+        </div>
+
+        <!-- Image -->
+        <div class="col-lg-6">
+          <img src="./img/rue.jpg" class="img-fluid" />
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!--- ========== CONNECT === -->
+
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <!-- Header -->
+        <div class="col-12">
+          <h2>Connect</h2>
+        </div>
+
+        <!-- Social icons -->
+        <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!--- ========== FOOTER === -->
+
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <!-- Columns -->
+          <div class="col-md-4">
+            <img src="./img/parisLogo.jpg" class="logo-paris" />
+            <hr class="light" />
+            <p>01 48 45 22 47</p>
+            <p>mairiedeparis19@gmail.com</p>
+            <p>28 Avenue Simon Bolivar</p>
+            <p>Paris, 75019, FRANCE</p>
+          </div>
+
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Our hours</h5>
+            <hr class="light" />
+            <p>Monday : 8am - 5pm</p>
+            <p>Tuesday : 9am - 4pm</p>
+            <p>Friday : closed</p>
+          </div>
+
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Service area</h5>
+            <hr class="light" />
+            <p>City, State, 00000</p>
+            <p>City, State, 00000</p>
+            <p>City, State, 00000</p>
+            <p>City, State, 00000</p>
+          </div>
+
+          <!-- copyright -->
+          <div class="col-12">
+            <hr class="light-100" />
+            <h5>&copy; kevSchmidt</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
