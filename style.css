@@ -4,15 +4,24 @@ html,
 body {
   height: 100%;
   width: 100%;
+  line-height: 1.7rem;
   font-family: "Poppins", sans-serif;
   color: #222;
 }
+
 .padding {
   padding-bottom: 2rem;
 }
 
 .logo-paris {
   width: 5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+}
+
+.logo-paris-end {
+  width: 12rem;
+  height: 5rem;
   border-radius: 5px;
 }
 
