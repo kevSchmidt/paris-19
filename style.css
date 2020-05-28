@@ -95,11 +95,11 @@ body {
 }
 
 .fa-utensils {
-  color: #563d7c;
+  color: #34d612;
 }
 
 .fa-archway {
-  color: #e54d26;
+  color: #e6c429;
 }
 
 .fa-hotel,
@@ -119,6 +119,7 @@ body {
 .gallery-img {
   max-width: 100%;
   height: 20rem;
+  border-radius: 3px;
 }
 
 /* ===== SOCIAL ICONS === */
@@ -141,7 +142,7 @@ body {
 }
 
 .fa-instagram {
-  color: #517fa4;
+  color: #b56ae6;
 }
 
 .fa-youtube {
