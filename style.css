@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  line-height: 1.7rem;
+  line-height: 150%;
   font-family: "Poppins", sans-serif;
   color: #222;
 }
@@ -20,8 +20,8 @@ body {
 }
 
 .logo-paris-end {
-  width: 12rem;
-  height: 5rem;
+  width: 9rem;
+  height: 3.5rem;
   border-radius: 5px;
 }
 
@@ -73,8 +73,8 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #3b5998;
-  border: 1px solid #3b5998;
+  background-color: #256fc4;
+  border: 1px solid #256fc4;
 }
 
 /* ===== JUMBOTRON === */
@@ -99,23 +99,16 @@ body {
   margin-bottom: 1rem;
 }
 
-.fa-hotel {
-  color: #2163af;
-}
-
-.fa-utensils {
-  color: #34d612;
-}
-
-.fa-archway {
-  color: #e6c429;
-}
-
 .fa-hotel,
 .fa-utensils,
 .fa-archway {
+  color: #2163af;
   font-size: 4em;
   margin: 1rem;
+}
+
+.about-header {
+  margin-bottom: 3rem;
 }
 
 /* ===== GALLERY === */
@@ -151,7 +144,7 @@ body {
 }
 
 .fa-instagram {
-  color: #b56ae6;
+  color: #942394;
 }
 
 .fa-youtube {
@@ -169,7 +162,7 @@ body {
 /* ===== FOOTER === */
 
 footer {
-  background-color: #3f3f3f;
+  background-color: #333;
   color: #d5d5d5;
   padding-top: 2rem;
 }
