@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  line-height: 150%;
+  line-height: 140%;
   font-family: "Poppins", sans-serif;
   color: #222;
 }
@@ -23,6 +23,10 @@ body {
   width: 9rem;
   height: 3.5rem;
   border-radius: 5px;
+}
+
+.card {
+  box-shadow: -2px 4px 14px rgb(17, 17, 17);
 }
 
 /* ===== NAVIGATION === */
@@ -102,7 +106,7 @@ body {
 .fa-hotel,
 .fa-utensils,
 .fa-archway {
-  color: #2163af;
+  color: #333;
   font-size: 4em;
   margin: 1rem;
 }
@@ -111,17 +115,23 @@ body {
   margin-bottom: 3rem;
 }
 
+.about-img {
+  border-radius: 5px;
+}
+
 /* ===== GALLERY === */
 
 .gallery {
   width: 100%;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .gallery-img {
   max-width: 100%;
   height: 18rem;
   border-radius: 3px;
+  box-shadow: 0 4px 6px rgba(17, 17, 17, 0.8);
 }
 
 /* ===== SOCIAL ICONS === */
@@ -133,22 +143,27 @@ body {
 
 .fa-facebook {
   color: #3b5998;
+  transition: all 0.3s;
 }
 
 .fa-twitter {
   color: #00aced;
+  transition: all 0.3s;
 }
 
 .fa-google-plus-g {
   color: #dd4b39;
+  transition: all 0.3s;
 }
 
 .fa-instagram {
   color: #942394;
+  transition: all 0.3s;
 }
 
 .fa-youtube {
   color: #bb0000;
+  transition: all 0.3s;
 }
 
 .fa-facebook:hover,
@@ -156,7 +171,7 @@ body {
 .fa-google-plus-g:hover,
 .fa-instagram:hover,
 .fa-youtube:hover {
-  color: #d5d5d5;
+  transform: scale(0.9);
 }
 
 /* ===== FOOTER === */
@@ -254,6 +269,10 @@ hr.light-100 {
     font-size: 2em;
     padding: 0.7rem;
   }
+
+  .about-header {
+    font-size: 1.8rem;
+  }
 }
 
 /* ========== FIXES === */
@@ -287,7 +306,14 @@ figure {
 }
 
 #fixed {
-  background-image: url("./img/petiteRue.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      transparent,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("./img/petiteRue.jpg");
   position: fixed;
   display: block;
   top: 0;
