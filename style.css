@@ -106,7 +106,7 @@ body {
 .fa-hotel,
 .fa-utensils,
 .fa-archway {
-  color: #333;
+  color: #777777;
   font-size: 4em;
   margin: 1rem;
 }
@@ -306,14 +306,7 @@ figure {
 }
 
 #fixed {
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.9),
-      transparent,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url("./img/petiteRue.jpg");
+  background: url("./img/hero.jpg");
   position: fixed;
   display: block;
   top: 0;
