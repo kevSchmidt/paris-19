@@ -1,5 +1,5 @@
-# Paris - XIX
+# Touristic Website: Paris XIX
 
-### Website with Bootstrap 4
+### Bootstrap4
 
 ![](./preview.png)
