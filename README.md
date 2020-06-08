@@ -1,5 +1,6 @@
-# Touristic Website: Paris XIX
+# Touristic Website
+## Paris XIX
 
-### Bootstrap4
+### Bootstrap4: [https://getbootstrap.com/]
 
 ![](./preview.png)
