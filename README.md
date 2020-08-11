@@ -1,5 +1,7 @@
 # Paris XIX
-- Discover the 19th disctrict of Paris.
+
+### Discover the 19th disctrict of Paris.
+This project is for learning purpose. 
 
 - Link of the project: https://kevschmidt.github.io/paris-19/
 - Clone the repository: ``` git clone git@github.com:kevSchmidt/paris-19.git ```
